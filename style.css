@@ -28,3 +28,12 @@ nav ul li a {
 nav ul li a:hover {
     color: #666;
 }
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#5F9EA0;
+    color: white;
+}
+
+
