@@ -10,8 +10,10 @@ body {
     text-transform: uppercase;
     background-color:#5F9EA0;
     color: white;
-    padding: 32px;
+    height: 50px;
+    width: 100%;
     border-bottom: 5px solid #a9a9a9;
+    display: flex;
 }
 
 
