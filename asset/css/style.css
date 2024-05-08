@@ -1,1 +1,77 @@
+:root {
+    --header-height: 3.5rem;
+  
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --body-background: #56b7a1;
+    --a-color:#165985 ;
+    --h1-color: #166170 ;
+  
+
+    --body-font: "Bai Jamjuree", sans-serif;
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.6rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  
+
+  }
+
+
+  @media screen and (min-width: 1150px) {
+    :root {
+      --biggest-font-size: 4.5rem;
+      --h1-font-size: 3rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+    }
+  }
+
+body {
+    object-position:  (-o-object-position);
+    background: var(--body-background);
+ 
+}
+
+h1 {
+    color: var(--h1-color);
+    font-size: var(--h1-font-size);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#5F9EA0;
+    height: 60px;
+    width: 100%;
+    border-bottom: 3px solid #a9a9a9;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul  {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+
+nav {
+    width: 50%;
+    height: 50px;
+    max-width: 300px;
+}
+
+a {
+    object-position: left;
+    color: var(--a-color);
+}
+
 
